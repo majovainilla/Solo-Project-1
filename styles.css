@@ -42,8 +42,55 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+  box-sizing: border-box;
+}
 /*---------------END OF THE RESET----------------------*/
 
 /*---------THE STYLING STARTS HERE----------------------*/
 
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 1440px;
+}
 
+nav {
+  background-color: gray;
+  border: red solid 1px;
+  height: 40px;
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  right: 30%;
+}
+
+.main-image {
+    background-color: blue;
+    border: red solid 1px;
+    height: 900px;
+    width: 100%;
+}
+
+  .small-image {
+    background-color: yellow;
+    border: red solid 1px;
+    width: 360px;
+    height: 200px;
+    float: left;
+}
+
+  footer {
+    background-color: lightblue;
+    border: red solid 1px;
+    width: 100%;
+    height: 90px;
+    clear: both;
+    padding: 15px 25%
+}
+
+.clear {
+  clear: both;
+}
