@@ -80,6 +80,8 @@ nav {
   width: 360px;
   height: 200px;
   float: left;
+  background-position: 50% 0%;
+  background-size: 100%;
 }
 
 footer {
@@ -137,3 +139,19 @@ footer {
   width: 120px;
   padding: 0 10px;
 }
+
+#img1 {
+  background-image: url(img/img1.jpg);
+}
+
+#img2 {
+  background-image: url(img/img2.jpg);
+}
+
+#img3 {
+  background-image: url(img/img3.jpg);
+}
+
+#img4 {
+  background-image: url(img/img4.jpg);
+  }
