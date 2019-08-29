@@ -1,34 +1,33 @@
-# New York Times Article Page
+# Apple Webpage Clone   
 
-This is a project that clones the New York Time Website.
+This is a project that clones an old version of this0 Apple website.
 
-The purpose of this project is to practice with positioning and floating. 
+The purpose of this project is to practice with gradients and background images.
 
 ## Sources
 
-You can check the original version here: https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
+You can check the original version here: 
+ https://web.archive.org/web/20140301004610/http://www.apple.com/
 
 
 This project is part of the Microverse Curriculum. www.microverse.org
 
-This project is part of the Odin Project Curriculum "PROJECT: POSITIONING AND FLOATING ELEMENTS" (you can find the complete project here:(https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+This project is part of the Odin Project Curriculum "PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS" (you can find the complete project <a href= "https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients">here</a>.
 
 
 ## Live Version
 
-You can see it here (after merging with master):  https://majovainilla.github.io/new-york-times-clone/
+You can see it here (after merging with master):  https://majovainilla.github.io/Solo-Project1
 
-## Built With
+## Technologies
 
 HTML
 CSS
 Linters
 Stickler
 VSCode
-Notepad++
 
-## Authors
+## Author
 
-Microverse students:
-@euqueme
+Microverse student:
 @majovainilla
