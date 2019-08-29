@@ -58,39 +58,82 @@ main {
 
 nav {
   background-color: gray;
-  border: red solid 1px;
   height: 40px;
-  width: 40%;
+  width: 50%;
   position: absolute;
   top: 15%;
-  left: 30%;
-  right: 30%;
+  left: 25%;
+  right: 25%;
+  border-radius: 2px;
 }
 
 .main-image {
-    background-color: blue;
-    border: red solid 1px;
-    height: 900px;
-    width: 100%;
+  background-image: url(img/hero.jpg);
+  background-size: 100%;
+  background-position-y: bottom;
+  height: 900px;
+  width: 100%;
 }
 
-  .small-image {
-    background-color: yellow;
-    border: red solid 1px;
-    width: 360px;
-    height: 200px;
-    float: left;
+.small-image {
+  background-color: yellow;
+  width: 360px;
+  height: 200px;
+  float: left;
 }
 
-  footer {
-    background-color: lightblue;
-    border: red solid 1px;
-    width: 100%;
-    height: 90px;
-    clear: both;
-    padding: 15px 25%
+footer {
+  background-color: lightblue;
+  width: 100%;
+  height: 90px;
+  clear: both;
+  padding: 15px 25%
 }
 
 .clear {
   clear: both;
+}
+
+.flex {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  padding-top: 12px;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  border-right: rgb(133, 133, 133) solid 1px;
+  color: white;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav-list:hover {
+  background-color: #4b4b4b;
+}
+
+.nav-gradient {
+  background: #808080;
+  background: -webkit-linear-gradient(#666, #5e5e5e, #707070, #808080);
+  background: linear-gradient(#666, #5e5e5e, #707070 50%, #808080);
+}
+
+#apple-logo {
+  background-image: url(img/apple-logo.svg);
+  background-position: 51% -3%;
+}
+
+.nav-input {
+  width: 100px;
+  border-radius: 40px;
+  background-image: url(img/search.png);
+  background: no-repeat;
+}
+
+#li-input {
+  width: 120px;
+  padding: 0 10px;
 }
