@@ -12,33 +12,40 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
   vertical-align: baseline;
   text-decoration: none;
 }
-/* HTML5 display-role reset for older browsers */
+
+/*  HTML5 display-role reset for older browsers  */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote::before, blockquote::after,
 q::before, q::after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -47,9 +54,9 @@ table {
 * {
   box-sizing: border-box;
 }
-/*---------------END OF THE RESET----------------------*/
+/* ---------------END OF THE RESET---------------------- */
 
-/*--------------PAGE STRUCTURE STYLING----------------------*/
+/* --------------PAGE STRUCTURE STYLING---------------------- */
 
 main {
   width: 90%;
@@ -79,11 +86,10 @@ nav {
 }
 
 .small-image {
-  width: 360px;
+  width: 25%;
   height: 200px;
   float: left;
-  background-position: 50% 0%;
-  background-size: 100%;
+  background: 50% 0% / 100% no-repeat;
 }
 
 footer {
@@ -94,7 +100,7 @@ footer {
   margin: auto;
 }
 
-/*---------GENERAL CLASSES----------------------*/
+/* ---------GENERAL CLASSES---------------------- */
 
 .clear {
   clear: both;
@@ -106,7 +112,7 @@ footer {
   align-items: center;
 }
 
-/*---------NAVBAR STYLING----------------------*/
+/* ---------NAVBAR STYLING---------------------- */
 
 .nav-list {
   padding-top: 10px;
@@ -153,7 +159,7 @@ footer {
   height: 100%;
 }
 
-/*---------MAIN IMAGE STYLING----------------------*/
+/* ---------MAIN IMAGE STYLING---------------------- */
 
 .link-text {
   margin-bottom: 20px;
@@ -171,7 +177,7 @@ footer {
   width: 70%;
 }
 
-/*---------BOTTOM SECTION STYLING----------------------*/
+/* ---------BOTTOM SECTION STYLING---------------------- */
 
 #img1 {
   background-image: url(img/img1.jpg);
@@ -189,7 +195,7 @@ footer {
   background-image: url(img/img4.jpg);
 }
 
-/*---------FOOTER STYLING----------------------*/
+/* ---------FOOTER STYLING---------------------- */
 
 .float-left {
   float: left;
