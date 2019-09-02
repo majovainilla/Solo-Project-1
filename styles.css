@@ -3,7 +3,7 @@ html,
 body,
 div,
 span,
-applet, 
+applet,
 object,
 iframe,
 h1,
@@ -84,7 +84,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: inherit;
   vertical-align: baseline;
   text-decoration: none;
 }
@@ -95,7 +95,7 @@ article,
 aside,
 details,
 figcaption,
-figure, 
+figure,
 footer,
 header,
 hgroup,
@@ -176,7 +176,7 @@ nav {
 
 footer {
   width: 40%;
-  height: 90px;  
+  height: 90px;
   clear: both;
   padding-top: 20px;
   margin: auto;
@@ -320,6 +320,4 @@ footer li a:hover {
   margin-left: 5px;
 }
 
-footer ul {
-  display: flex;
-}
+footer ul { display: flex}
