@@ -284,6 +284,17 @@ footer {
   padding-bottom: 15px;
 }
 
+
+footer a,
+footer li a {
+  color: #08c;
+}
+
+footer a:hover,
+footer li a:hover {
+  text-decoration: underline;
+}
+
 footer p,
 footer li a {
   font-size: 10px;
@@ -294,16 +305,6 @@ footer li a {
 footer p {
   margin-right: 20px;
   padding-top: 4px;
-}
-
-footer a,
-footer li a {
-  color: #08c;
-}
-
-footer a:hover,
-footer li a:hover {
-  text-decoration: underline;
 }
 
 .footer-list {
@@ -320,4 +321,6 @@ footer li a:hover {
   margin-left: 5px;
 }
 
-footer ul { display: flex}
+footer ul {
+  display: flex;
+}
