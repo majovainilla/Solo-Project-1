@@ -284,15 +284,9 @@ footer {
   padding-bottom: 15px;
 }
 
-
 footer a,
 footer li a {
   color: #08c;
-}
-
-footer a:hover,
-footer li a:hover {
-  text-decoration: underline;
 }
 
 footer p,
@@ -300,6 +294,11 @@ footer li a {
   font-size: 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: gray;
+}
+
+footer a:hover,
+footer li a:hover {
+  text-decoration: underline;
 }
 
 footer p {
