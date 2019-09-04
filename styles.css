@@ -1,0 +1,325 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/*  HTML5 display-role reset for older browsers  */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ---------------END OF THE RESET---------------------- */
+
+/* --------------PAGE STRUCTURE STYLING---------------------- */
+
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 1440px;
+}
+
+nav {
+  height: 35px;
+  width: 45%;
+  max-width: 980px;
+  position: absolute;
+  top: 6%;
+  left: 22.5%;
+  right: 22.5%;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.main-image {
+  background: url(img/hero.jpg) no-repeat bottom / 100%;
+  height: 800px;
+  width: 100%;
+  padding-top: 270px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.small-image {
+  width: 25%;
+  height: 200px;
+  float: left;
+  background: 50% 0% / 100% no-repeat;
+}
+
+footer {
+  width: 40%;
+  height: 90px;
+  clear: both;
+  padding-top: 20px;
+  margin: auto;
+}
+
+/* ---------GENERAL CLASSES---------------------- */
+
+.clear {
+  clear: both;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------NAVBAR STYLING---------------------- */
+
+.nav-list {
+  padding-top: 10px;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  border-right: rgb(133, 133, 133) solid 1px;
+  color: white;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.nav-list:hover {
+  background: linear-gradient(#727272, #5e5e5e 50%, #666 30%, #5e5e5e 70%);
+}
+
+.nav-gradient {
+  background: #808080;
+  background: -webkit-linear-gradient(#808080, #707070 50%, #666 30%, #5e5e5e 70%);
+  background: url(img/border.png), linear-gradient(#808080, #707070 50%, #666 30%, #5e5e5e 70%);
+}
+
+#apple-logo {
+  background: url(img/apple-logo.svg) 50% -1%;
+}
+
+#apple-logo:hover {
+  background-color: #4b4b4b;
+  opacity: 0.5;
+}
+
+.nav-input {
+  width: 100px;
+  border-radius: 40px;
+  background: url(img/search.png) no-repeat 5% 0;
+  background-size: 15px;
+}
+
+#li-input {
+  width: 120px;
+  padding: 0 10px;
+}
+
+.height100 {
+  height: 100%;
+}
+
+/* ---------MAIN IMAGE STYLING---------------------- */
+
+.link-text {
+  margin-bottom: 20px;
+}
+
+#text1 {
+  width: 50%;
+}
+
+#text2 {
+  width: 60%;
+}
+
+#text3 {
+  width: 70%;
+}
+
+/* ---------BOTTOM SECTION STYLING---------------------- */
+
+#img1 {
+  background-image: url(img/img1.jpg);
+}
+
+#img2 {
+  background-image: url(img/img2.jpg);
+}
+
+#img3 {
+  background-image: url(img/img3.jpg);
+}
+
+#img4 {
+  background-image: url(img/img4.jpg);
+}
+
+/* ---------FOOTER STYLING---------------------- */
+
+.float-left {
+  float: left;
+  padding-bottom: 15px;
+}
+
+footer a,
+footer li a {
+  color: #08c;
+}
+
+footer p,
+footer li a {
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+footer a:hover,
+footer li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-right: 20px;
+  padding-top: 4px;
+}
+
+.footer-list {
+  border-right: solid 1px #ccc;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+#country-logo {
+  border-right-color: transparent;
+  background: url(img/usa.png) no-repeat 10%;
+  background-size: 15px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+footer ul {
+  display: flex;
+}
