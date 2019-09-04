@@ -17,7 +17,7 @@ This project is part of the Odin Project Curriculum "PROJECT: BUILDING WITH BACK
 
 ## Live Version
 
-You can see it here (after merging with master):  https://majovainilla.github.io/Solo-Project1
+You can see it here:  https://majovainilla.github.io/Solo-Project-1/
 
 ## Technologies
 
